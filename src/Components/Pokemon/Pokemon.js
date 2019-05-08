@@ -11,9 +11,12 @@ class Pokemon extends Component {
     }
     render(){
         return(
-            <div>
+            <div className='pokemon-flex-div'>
                 <div className='pokemon-trainer-div'>
                     <img src={PokemonTrainer} alt='Pokemon Trainer' className='pokemon-trainer-image' />
+                </div>
+                <div className='pokemon'>
+
                 </div>
             </div>
         ) 
